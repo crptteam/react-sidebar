@@ -30,7 +30,6 @@ const Elem = styled.div`
   width: ${props => props.width};
   background-color: ${props => props.backgroundColor};
   box-sizing: border-box;
-  overflow-y: auto;
   transition: 0.5s all;
 
   ${props => getPositionByLocation(props)}
